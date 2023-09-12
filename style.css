@@ -1,0 +1,110 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    background-image: url('https://watcher616.github.io/Newsletter-Popup/Assets/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.Main-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.container{ 
+	border: 1px solid #ccc;
+	border-radius: 8px; 
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container{  
+    background-color: #0560f7;
+    width: 480px;
+    height: 256px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.backs{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h2{
+    width: 250px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+}
+.form-container{ 
+    width: 480px;
+    height: 350px;   
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
+    background-color: white;
+}
+
+.email{
+    width: 295px;
+    height: 44px;
+    padding: 10px;
+    border: 2px solid #ccc; /* Original border size and color */
+    border-radius: 3px;
+}
+.fstlabel{
+    width: 320px;
+    text-align: center; 
+    margin-left: 15%;
+}
+.btn1{
+    width: 133px;
+    height: 44px;
+    color: white;
+    background-color: #0560F7;
+    border: 0;
+    border-radius: 3px;
+}
+.thrdlabel{
+    color: #babcbf;
+    margin-left: 5%; 
+    width: fit-content;
+}
+.form-container > label{
+    margin-top: 20px;
+}
+
+.accounts{
+    display: flex;
+    align-items: center;
+    margin-top: 20px; 
+    justify-content: center;
+}
+
+.profilepic{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.info{
+    text-align: left;
+}
+.feedback{
+    width: 430px;
+    color: #535963;
+    text-align: center; 
+    margin-left: 25px;
+    letter-spacing: 1px;
+}
+ .name {
+    color: #535963;
+    font-weight: bold;
+ }
+ .position, .fstlabel{
+    color: #535963;
+ }
